@@ -1,0 +1,152 @@
+@prefix geno: <http://www.semanticweb.org/geno2#>
+
+                        
+### RADIO 1998
+                       
+<dossier_enMer_radio1998>   a geno:Dossier ;
+                            geno:resultsInPublication <pub_enMer_radio1998> .
+
+<pub_enMer_radio1998> a geno:Publication .                          
+
+<witness_A-13-a-01>  a geno:Avant-textualResource ;
+                     geno:hasGeneticStage geno:Draft ;
+                     geno:isGeneticWitnessInDossier <dossier_enMer_radio1998> .
+
+<witness_A-13-a-02>  a geno:Avant-textualResource ;
+                     geno:hasGeneticStage geno:Draft ;
+                     geno:isGeneticWitnessInDossier <dossier_enMer_radio1998> .                     
+
+<witness_A-13-a-03>  a geno:Avant-textualResource ;
+                     geno:hasGeneticStage geno:Draft ;
+                     geno:isGeneticWitnessInDossier <dossier_enMer_radio1998> .
+                                                               
+<witness_A-13-a-04>  a geno:Avant-textualResource ;
+                     geno:hasGeneticStage geno:Draft ;
+                     geno:isGeneticWitnessInDossier <dossier_enMer_radio1998> .
+
+<witness_A-13-a-05>  a geno:Avant-textualResource ;
+                     geno:hasGeneticStage geno:FinalCopy ;
+                     geno:isGeneticWitnessInDossier <dossier_enMer_radio1998> .
+
+<witness_A-13-a-06>  a geno:Avant-textualResource ;
+                     geno:hasGeneticStage geno:FinalCopy ;
+                     geno:isGeneticWitnessInDossier <dossier_enMer_radio1998> .
+
+<witness_A-13-a-07_part1>   a geno:Avant-textualResource ;
+                            geno:hasGeneticStage geno:Sketch ;
+                            geno:isGeneticWitnessInDossier <dossier_enMer_radio1998> .
+
+<witness_A-13-a-07_part2>   a geno:Documentation ;
+                            geno:isGeneticWitnessInDossier <dossier_enMer_radio1998> .
+
+<witness_A-17-a_enMer-recit-version-longue-doc> a geno:Avant-textualResource ;
+                                                geno:hasGeneticStage geno:FinalCopy ;
+                                                geno:isGeneticWitnessInDossier <dossier_enMer_radio1998> .
+
+
+                        
+### NRF 1999
+                       
+<dossier_enMer_NRF1999> a geno:Dossier ;
+                        geno:resultsInPublication <pub_enMer_NRF1999> .
+
+<pub_enMer_NRF1999> a geno:Publication .                        
+
+<pub_enMer_radio1998>   geno:isGeneticWitnessInDossier <dossier_enMer_NRF1999> .
+
+<witness_A-6-25-a>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:Draft ;
+                    geno:isGeneticWitnessInDossier <dossier_enMer_NRF1999> .
+                     
+<witness_A-6-25-b>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:Draft ;
+                    geno:isGeneticWitnessInDossier <dossier_enMer_NRF1999> .
+                    
+<witness_A-6-25-c>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:Draft ;
+                    geno:isGeneticWitnessInDossier <dossier_enMer_NRF1999> .
+                      
+<witness_A-6-25-d>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:FinalCopy ;
+                    geno:isGeneticWitnessInDossier <dossier_enMer_NRF1999> .
+                        
+<witness_A-6-25-e>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:FinalCopy ;
+                    geno:isGeneticWitnessInDossier <dossier_enMer_NRF1999> .
+                     
+<witness_A-17-a_enMer-recit-doc>    a geno:Avant-textualResource ;
+                                    geno:hasGeneticStage geno:FinalCopy ;
+                                    geno:isGeneticWitnessInDossier <dossier_enMer_NRF1999> .
+
+                 
+                        
+### NOVEL (2006-2009)
+                       
+<dossier_enMer_novel> a geno:Dossier .
+
+<pub_enMer_NRF1999> geno:isGeneticWitnessInDossier <dossier_enMer_novel> .
+
+<witness_A-12-a-21bis>  a geno:Avant-textualResource ;
+                        geno:hasGeneticStage geno:Sketch ;
+                        geno:isGeneticWitnessInDossier <dossier_enMer_novel> .
+                        
+<witness_A-15-f-01>  a geno:Avant-textualResource ;
+                     geno:hasGeneticStage geno:Sketch ;
+                     geno:isGeneticWitnessInDossier <dossier_enMer_novel> .                       
+
+
+
+### SHORT STORIES COLLECTION (1993-200?)
+
+<dossier_shortStoriesCollection> a geno:Dossier .
+
+<pub_enMer_NRF1999> geno:isGeneticWitnessInDossier <dossier_shortStoriesCollection> .
+
+<witness_A-15-e-01>  a geno:Avant-textualResource ;
+                     geno:hasGeneticStage geno:Plan ;
+                     geno:isGeneticWitnessInDossier <dossier_shortStoriesCollection> .
+                   
+                   
+                        
+### TOUT PASSE 2011                        
+                        
+<dossier_toutPasse2011> a geno:Dossier ;
+                        geno:resultsInPublication <pub_toutPasse2011> .
+                        
+<pub_enMer_NRF1999> geno:isGeneticWitnessInDossier <dossier_toutPasse2011> .
+<dossier_shortStoriesCollection> geno:isReusedIn <dossier_toutPasse2011> .                  
+                        
+<witness_A-3-e-05>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:Draft ;
+                    geno:isGeneticWitnessInDossier <dossier_toutPasse2011> .
+
+<witness_A-3-e-16>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:Draft ;
+                    geno:isGeneticWitnessInDossier <dossier_toutPasse2011> .
+                    
+<witness_A-3-e-17>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:Draft ;
+                    geno:isGeneticWitnessInDossier <dossier_toutPasse2011> .
+                        
+<witness_A-3-e-18>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:Draft ;
+                    geno:isGeneticWitnessInDossier <dossier_toutPasse2011> .
+                        
+<witness_A-3-e-19>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:Draft ;
+                    geno:isGeneticWitnessInDossier <dossier_toutPasse2011> .
+
+<witness_A-3-e-20>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:FinalCopy ;
+                    geno:isGeneticWitnessInDossier <dossier_toutPasse2011> .
+                     
+<witness_A-3-e-21>  a geno:Avant-textualResource ;
+                    geno:hasGeneticStage geno:CorrectedProofs ;
+                    geno:isGeneticWitnessInDossier <dossier_toutPasse2011> .
+                     
+<witness_A-17-a_tout-passe-docx>    a geno:Avant-textualResource ;
+                                    geno:hasGeneticStage geno:FinalCopy ;
+                                    geno:isGeneticWitnessInDossier <dossier_toutPasse2011> .
+                     
+
+                        

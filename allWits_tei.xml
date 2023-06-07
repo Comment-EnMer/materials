@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prototype of a digital edition of "En mer" by Bernard Comment</title>
+            <respStmt>
+               <resp>Editor</resp>
+               <persName xml:id="ES">Elena Spadini</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Archivists</resp>
+               <orgName xml:id="SLA">Swiss Literary Archives</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Elena Spadini, scientific editor</authority>
+            <authority>Bernard Comment, author</authority>
+            <authority>Swiss Literary Archives</authority>
+            <date>2023</date>
+            <availability status="restricted">
+               <p>The copyright of all the texts by Bernard Comment and the facsimiles of the documents belongs to the author: all rights reserved.</p>
+               <p>The descriptions of the witnesses and the rest of the content of the website (except for Comment's texts and the facsimiles) are available
+                  under a <ref target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 licence</ref>.</p>               
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+
+            <listBibl xml:id="pubs">
+               <bibl xml:id="EnMer-Radio-1998">>« En mer », diffusion sur Espace 2, Régie: J.-M.
+                  Meyer, 1998</bibl>
+               <bibl xml:id="EnMer-NRF-1999">« En mer », Bernard Comment, La Nouvelle Revue
+                  Française, Juin 1999 (n° 550). Parution : 04/06/1999. Pages 119-140.</bibl>
+               <bibl xml:id="EnMer-ToutPasse-2011">Tout passe, Paris, éd. Christian Bourgois,
+                  2011.</bibl>
+            </listBibl>
+
+            <listWit xml:id="witsPaper">
+
+               <head>Paper witnesses</head>
+
+               <witness xml:id="A-12-a-21bis">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Switzerland</country>
+                        <institution>Swiss Literary Archives (SLA)</institution>
+                        <collection>ALS-Comment</collection>
+                        <idno>A-12-a-21bis</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <title resp="#SLA">[Carnet 2003-2009]</title>
+                           <note resp="#SLA">Texte, notes, coupures de presse ou textes contecollés.
+                              On distingue les titres suivants : « Daniel Arasse 15 mars 2003 », «
+                              Chronique du 12 juin 2003 », « Conférence à Jussieu », « Carlos
+                              Drummont de Andrade », « En mer », « Roman [Suisse] », « Roman », « EN
+                              MER (ou TRANSIT)», « Début du roman », « Idée du 20 juillet 09 »,
+                              «Eléments pour le tourbillon de la nuit d'hôtel - Roman », « Lieux »,
+                              « LE TEMPS / variations ». Inclusion: Notes et fragments pour En
+                              mer.</note>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <p resp="#SLA">1 petit cahier noir avec élastique, 12.5 x 8.5 cm, ligné ; 24
+                           feuillets autographes numérotation. autographe partielle (2-4).</p>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>Notebook</support>
+                           </supportDesc>
+                        </objectDesc>
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate resp="#SLA" when="2003">approx. 08/03/2003 - approx.
+                              20/07/2009</origDate>
+                        </origin>
+                     </history>
+                     <additional>
+                        <surrogates>
+                           <p>Facsimile not available in this prototype</p>
+                        </surrogates>
+                        <listBibl>
+                           <bibl>
+                              <ptr type="SLA-entry"
+                                 target="https://www.helveticarchives.ch/detail.aspx?ID=1734807"/>
+                           </bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+
+               <listWit xml:id="A-13-a">
+                  <head resp="#SLA">« En mer. [Version] radiophonique. Été 1998 »</head>
+                  <desc resp="#SLA">« En mer », diffusion sur Espace 2, Régie: J.-M. Meyer,
+                     1998.</desc>
+                  <desc resp="#SLA">Les dossiers et documents de niveau hiérachique inférieur
+                     étaient contenus dans une chemise jaune conservée et intitulée : « En mer /
+                     Texte pour une pièce / radiophonique / espace 2 / été 1998 ».</desc>
+                  <desc resp="#SLA">1998. Daté par l'auteur sur la chemise contenant les documents
+                     subordonnées : « [...] été 1998 ».</desc>
+                  <desc corresp="https://www.helveticarchives.ch/detail.aspx?id=796093"/>
+
+
+                  <witness xml:id="A-13-a-01">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-13-a-01</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">Comment, Bernard :« En mer ». Manuscrit</title>
+                              <incipit>-Dix ans ? Alors, tu es tout de suite venu t'installer ici
+                                 ?</incipit>
+                              <explicit>et pendant toutes ces années, je ne leur avais pas couté
+                                 cher.</explicit>
+                              <note resp="#ES">The son character, who would have been ten years old,
+                                 is already present. The first part of the text, until p. 9, is not
+                                 divided into sections. Some reading indications in parenthesis,
+                                 like '(Un temps)'.</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">24 ff. aut. num. aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <handDesc>
+                              <p>Two pens with blue ink are used, the second starting on p. 20</p>
+                           </handDesc>
+                           <additions>Only some, with the same pen.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="1998">Daté par l'auteur sur la chemise
+                                 contenant ce document : « [...] été 1998 ».</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Video for private use.</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796094"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-13-a-02">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-13-a-02</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« En mer ». [Version I]. Tapuscrit</title>
+                              <incipit>- Tu es tout de suite venu t'installer ici ?</incipit>
+                              <explicit>et pendant toutes ces années, je ne leur avais pas couté
+                                 cher. De toute façon, elle mange peu. Très peu.</explicit>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">19 ff. dact. num. aut. avec corr. et ajouts aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">With pen and with pencil.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="1998">Daté par l'auteur sur la chemise
+                                 contenant ce document : « [...] été 1998 ».</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile not available in this prototype</p>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796096"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-13-a-03">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-13-a-03</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« En mer ». [Version II]. Tapuscrit</title>
+                              <incipit>- Qu'est-ce que tu es venue faire ici ?</incipit>
+                              <explicit>Ce matin, j’ai écouté la radio, pour la première fois depuis
+                                 longtemps. Il n’ont rien dit de la Suisse, ni d’xxxxxx menace,
+                                 nulle part. Le beau temps se maintiendra jusqu’à
+                                 dimanche.</explicit>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">22 ff. dact. num. avec corr. et ajouts aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Many, with pen and with pencil.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="1998">Daté par l'auteur sur la chemise
+                                 contenant ce document : « [...] été 1998 ».</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile not available in this prototype</p>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796098"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-13-a-04">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-13-a-04</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">Comment, Bernard :« En mer ». [Version III].
+                                 Tapuscrit</title>
+                              <incipit>— Tu m'en veux ?</incipit>
+                              <explicit>[The contrary to the previous version: add Paolo who comes
+                                 back after he listens to the radio + Leopardi's quote] [...] je ne
+                                 leur avais pas couté cher. De toute façon, elle mange peu. Très
+                                 peu.</explicit>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">22 ff.( 21 dact. num. avec corr. et ajouts aut., 1 f. aut.
+                              interpolé)</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Many, with pen and with pencil.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="1998">Daté par l'auteur sur la chemise
+                                 contenant ce document : « [...] été 1998 ».</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Video for private use.</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796099"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-13-a-05">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-13-a-05</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« En mer ». [Version IV]. Tapuscrit.</title>
+                              <incipit>— Tu m'en veux ?</incipit>
+                              <explicit>[Same as <ref target="#A-13-a-04"
+                                 >A-13-a-04</ref>]</explicit>
+                              <note resp="#SLA">Note aut. en p. 1 : « corrections fin août 98 / pour
+                                 version définitive Espace 2 ».</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">26 dact. num. (2 - 27) avec corr. et ajouts aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Many, with pen and with pencil.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="1998-08">Daté par l'auteur en p. 1 : «
+                                 [...] fin août 1998 ».</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile not available in this prototype</p>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796100"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-13-a-06">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-13-a-06</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« En mer ». [Version V]. Tapuscrit</title>
+                              <incipit>— Tu m'en veux ?</incipit>
+                              <explicit>Double, c'est peut-être beaucoup (Un temps) De toute façon,
+                                 elle mange tellement peu.</explicit>
+                              <note resp="#ES">Many reading indications in italic and
+                                 parenthesis.</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">24 ff. dact. num. (2 - 25) avec quelques corr. aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Some, with pencil.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="1998"/>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Video for private use.</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796109"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-13-a-07">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-13-a-07</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">[« En mer »]. Documents</title>
+                              <note resp="#SLA">Textes, plans, correspondance. 1 l. dact. s.
+                                 d'Espace 2 (Schuin, Anik ; Genève, 31.03.1988).</note>
+                              <note resp="#ES">Documentation. Letter from the radio (RSR Espace 2)
+                                 ordering the text for participating in a literary award
+                                 competition. Notes for the text on various paper sheets: Leopardi's quotes, list of
+                                 prisoners with graphic scheme of their position in cells, text
+                                 passages.</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">6 ff. aut.+ 1 l. dact. s.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="1998"/>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Photos for private use.</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796110"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+               </listWit>
+
+
+
+
+
+               <listWit xml:id="A-15-e">
+                  <head resp="#SLA">« Hors-piste / projet de recueil / de textes »</head>
+                  <desc resp="#SLA">approx. 1993 - approx. 2000</desc>
+                  <desc resp="#SLA">Les documents de niveau hiérarchique inférieur, conservés dans
+                     l'ordre, étaient contenus dans une chemise jaune conservée et intitulée «
+                     Hors-piste / projet de recueil / de textes ».</desc>
+                  <desc corresp="https://www.helveticarchives.ch/detail.aspx?ID=1008355"/>
+                  <witness xml:id="A-15-e-01">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-15-e-01</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« Hors-piste / projet de recueil de textes ». Table
+                                 des matières</title>
+                              <note resp="#ES">The project of a collection of short novels is
+                                 documented already in A-15-c ("Comédie pour un temps", 1993-1995)
+                                 and A-15-d ("Hors-jeux / nouvelles", 1993-2000). The table of
+                                 contents in this document includes "« En mer », in Nouvelle Revue
+                                 Française, juin 1999"</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">1 f. dact. avec ajouts aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>paper sheet</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">With blue pen.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA">s.d.</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Photos for private use</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=1008360"
+                                 />
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+               </listWit>
+
+
+
+               <listWit xml:id="A-15-f">
+                  <head resp="#SLA">« En mer / roman ».</head>
+                  <desc resp="#SLA">approx. 2006 - approx. 2007. Si le tapuscrit conservé ici semble
+                     antérieur aux indications chronologiques données ci-dessus, la documentation
+                     qui l'accomagne a été constituée en 2006-2007.</desc>
+                  <desc resp="#SLA">Les documents de niveau hiérachique inférieur étaient contenus
+                     dans une chemise rose conservée et intitulée : « En mer / roman / "De l'eau, de
+                     l'eau, de / l'eau de toutes parts." / S.T. Coleridge ».</desc>
+                  <desc corresp="https://www.helveticarchives.ch/detail.aspx?ID=1203788"/>
+                  <witness xml:id="A-15-f-01">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-15-f-01</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA"> Comment, Bernard : « En mer / Roman ».
+                                 Tapuscrit</title>
+                              <incipit>[Citation de Ramuz] — Tu m'en veux ?</incipit>
+                              <explicit>Doubles portions, c'est peut-être beaucoup. Elle mange
+                                 tellement peu.</explicit>
+                              <note resp="#SLA">2 ff. de nots aut. dont 1 titré : « 18.II.2006 /
+                                 Début du roman ("En mer" ?) ».</note>
+                              <note resp="#ES">Project of extension of "En mer" for a novel? This
+                                 document contains a copy of the short story and notes ("18.II.2006") + documentation
+                                 from newspapers and two printout of webpages (2006-2007).</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">18 ff. dact. num. Aut. (2-18).</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printouts and newspaper cuts</p>
+                           </typeDesc>
+                           <additions ana="no">No.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="2006">approx. 18/02/2006</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Videos and photos for private use</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=1203791"
+                                 />
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+               </listWit>
+
+
+               <listWit xml:id="A-3-e">
+                  <head resp="#SLA">Tout passe</head>
+                  <desc resp="#SLA">Paris, éd. Christian Bourgois, 2011.</desc>
+                  <desc corresp="https://www.helveticarchives.ch/detail.aspx?ID=1007232"/>
+                  <witness xml:id="A-3-e-05">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-3-e-05</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« En mer ». Tapuscrit</title>
+                              <incipit>[Citation de Ramuz] — Tu m'en veux ?</incipit>
+                              <explicit>Doubles portions, c’est peut-être beaucoup. Elle mange
+                                 tellement peu</explicit>
+                              <note resp="#ES">No footnote about Lucerne tunnel.</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">23 ff. dact. non num.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="no">No.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA">s.d.</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile not available in this prototype</p>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=1007646"
+                                 />
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-3-e-16">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-3-e-16</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« Tout passe. Récits ». Tapuscrit
+                                 [I]</title>
+                              <incipit>[Citation de Ramuz] De loin, je n’avais d’abord vu que la tache
+                                 rouge [...].</incipit>
+                              <explicit>Je n'ai jamais aimé avoir des armoires qui se remplissent trop. C'est [xxx]</explicit>
+                              <note resp="#SLA">Texte et paratexte (p. de titre, exergue, table des matières)</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">151 ff. dact. num. (2-151) avec nombr. corr. et ajouts aut. + 2 ff. non num. à la fin avec ajouts aut.
+                              Ajout aut. en p. de titre: « Flottement / Un fils / Hors-jeu / Fugue / Ne rien laisser / L'annonce / En mer / Corrections / Une panne ».</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Many, with pencil and different pens.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA">s.d.</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Photos for private use</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=1007654"
+                                 />
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-3-e-17">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-3-e-17</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« Tout passe. Récits ». Tapuscrit
+                                 [II]</title>
+                              <incipit>[Citation de Ramuz] De loin, je n’avais d’abord vu que la tache
+                                 rouge [...].</incipit>
+                              <explicit>[Same as A-3-e-16, annotations integrated in the typescript]</explicit>
+                              <note resp="#SLA">Texte et paratexte (p. de titre, exergue, table des matières)</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">62 ff. r°-v° dact. num. (2-126) avec corr. aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Only one.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA">s.d.</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile not available in this prototype</p>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=1007447"
+                                 />
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-3-e-18">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-3-e-18</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« Tout passe. Récits ». Tapuscrit
+                                 [III]</title>
+                              <incipit>De loin, je n’avais d’abord vu [...].</incipit>
+                              <explicit>Je n'ai jamais aimé avoir des armoires qui se remplissent trop.</explicit>
+                              <note resp="#SLA">Texte et paratexte (p. de titre, exergue, table des matières).
+                                 Indication aut. en p. de titre : « Version corrigée entre le / 10 et le 20 décembre 2010, / suite à la première lecture / de Dominique Bourgois ».</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">126 ff. dact. num. avec corr. aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Many, with pencil and different pens.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="2010-12">« Version corrigée entre le / 10 et
+                                 le 20 décembre 2010, / suite à la première lecture / de Dominique
+                                 Bourgois »</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Photos for private use</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=1007237"
+                                 />
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-3-e-19">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-3-e-19</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« Tout passe. Récits ». Tapuscrit
+                                 [IV]</title>
+                              <note resp="#SLA">Texte et paratexte (p. de titre, exergue, table des matières)</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">125 ff. num. avec rares corr. aut. à l'encre rouge et orange</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="no">No.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA">s.d.</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile not available in this prototype</p>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=1007239"
+                                 />
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-3-e-20">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-3-e-20</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">Comment, Bernard: « Tout passe. Récits ». Tapuscrit
+                                 [V]</title>
+                              <incipit>De loin, je n’avais d’abord vu [...].</incipit>
+                              <explicit>Je n'ai jamais aimé avoir des armoires qui se remplissent trop.</explicit>
+                              <note resp="#SLA">Texte et paratexte (p. de titre, exergue). Les corr. dact. ne sont peut-être pas de l'auteur.</note>
+                              <note resp="#ES">Computer printout with track changes (from author or editor) and manual annotations.</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">60 ff. dact. num. (2-61) avec corr. dact. et aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Some.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA">s.d.</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Photos for private use</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=1007238"
+                                 />
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-3-e-21">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-3-e-21</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« Tout passe ». Épreuves</title>
+                              <note resp="#SLA">Annotation aut. sur la 1ère page: "et le / DU MÊME AUTEUR?".</note>                              
+                              <!-- Una sola correzione, p. 103: aggiunta di “me
+                                 demande-t-elle tout à coup” dopo “qu’est que tu lis alors pendant
+                                 ces journées de solitude?” -->
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">144 ff. dact. num. avec corr. aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Only one.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="2011-02-25">Datation automatique sur l'en-tête des ff. : « Vendredi, 25. février 2011 ».</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile not available in this prototype</p>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=1007236"
+                                 />
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+               </listWit>
+
+
+               <listWit xml:id="A-6-25">
+                  <head resp="#SLA">« En mer », in NRF</head>
+                  <desc resp="#SLA">1999</desc>
+                  <desc resp="#SLA">Sauf mention contraire, les dossiers et documents de niveau
+                     hiérachiques inférieurs étaient contenus dans une chemise grise conservée et
+                     intitulée : « "En mer" / version NRF ».</desc>
+                  <desc resp="#SLA">Ce texte originellement conçu pour une <ref
+                        target="#EnMer-Radio-1998">pièce radiophonique (« En mer », diffusion, RSR2,
+                        Régie: J.-M. Meyer, 1998)</ref>, a été publié par la <ref
+                        target="#EnMer-NRF-1999">Nouvelle Revue Française en 1999 (La NRF, n° 550,
+                        juin 1999, pp. 119 - 140)</ref> puis repris dans <ref
+                        target="#EnMer-ToutPasse-2011">Tout passe, Paris : Christian Bourgois, 2011,
+                        pp. 105-121</ref>.</desc>
+                  <desc corresp="https://www.helveticarchives.ch/detail.aspx?ID=796114"/>
+
+                  <witness xml:id="A-6-25-a">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-6-25-a</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« En mer ». [Version I]. Tapuscrit</title>
+                              <incipit>— Tu m'en veux ?</incipit>
+                              <explicit>il a encore crié depuis son petit bateau, avec un grand
+                                 sourire. Doubles portions, c'est peut-être beaucoup. De toute façon
+                                 elle mange tellement peu.</explicit>
+                              <note resp="#SLA"> Note aut. de l'auteur en p. 2 : « version corrigée
+                                 en janvier / 1999 pour publication / dans la NRF / sur
+                                 sollicitation de Michel Braudeau / 1er jeu de corrections. / [9 -
+                                 10 janvier 1999] ».</note>
+                              <note resp="#ES">Shift from oral to written reception: all reading
+                                 indications removed.</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">25 ff. dact. num. (2 - 26) avec corr. et ajouts aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">With pen.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="1999-01">09/01/1999 - 10/01/1999. Daté par
+                                 l'auteur en p. 2 : « [...] [9 - 10 janvier 1999] [...]»</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Video for private use</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796115"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-6-25-b">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-6-25-b</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« En mer ». [Version II]. Tapuscrit</title>
+                              <incipit>[Citation de Ramuz] — Tu m'en veux ?</incipit>
+                              <explicit>Doubles portions, c’est peut-être beaucoup. Elle mange
+                                 tellement peu. [note de bas de page sur le tunnel de
+                                 Lucerne]</explicit>
+                              <note resp="#SLA">Note aut. de l'auteur en p. 2 : « 2e jeu de
+                                 corrections / pour NRF / 12 janvier 99 ».</note>
+                              <note resp="#ES">Ramuz' quote added in the beginning, addition of
+                                 footnote about Lucerne tunnel at the end.</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">19 ff. dact. num (2 - 20) avec corr. aut. + 1 second ex.
+                              (1 second ex. du document sans corr.)</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Only some, with pen.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="1999-01-12">Daté par l'auteur en p. 2 : «
+                                 [...] [12 janvier 1999] ».</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile and transcription of samples available in this prototype</p>
+                              <note>Video for private use</note>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796118"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-6-25-c">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-6-25-c</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« En mer ». [Version III]. Tapuscrit</title>
+                              <incipit>[Same as previous version]</incipit>
+                              <explicit>[Same as previous version]</explicit>
+                              <note resp="#SLA">Note aut. de l'auteur en p. 2 : « corrections pour
+                                 NRF / 22 février 99 » [wrongly transcribed '22 janvier' in the SLA
+                                 catalogue].</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">19 ff. dact. num (2 - 20) avec corr. aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Only some, with pen.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#ES" when="1999-02-22">Dated by the author on p. 2:
+                                 "[...] 22 février 1999".</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile not available in this prototype</p>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796119"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-6-25-d">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-6-25-d</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« En mer ». [Version IV]. Tapuscrit</title>
+                              <incipit>[Same as previous version]</incipit>
+                              <explicit>[Same as previous version]</explicit>
+                              <note resp="#SLA">Note aut. de l'auteur en p. 2 : « Dernière
+                                 corrections / pour NRF / 24 février 1999 ».</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">19 ff. dact. num (2 - 20) avec corr. aut.</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Only some, with pen, mostly strike through sentecens
+                              and words.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#SLA" when="1999-02-24">Daté par l'auteur en p. 2 : «
+                                 [...] 24 février 1999 ».</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile not available in this prototype</p>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=796120"/>
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+
+                  <witness xml:id="A-6-25-e">
+                     <msDesc>
+                        <msIdentifier>
+                           <country>Switzerland</country>
+                           <institution>Swiss Literary Archives (SLA)</institution>
+                           <collection>ALS-Comment</collection>
+                           <idno>A-6-25-e (and A-6-25-f, copy)</idno>
+                        </msIdentifier>
+                        <msContents>
+                           <msItem>
+                              <title resp="#SLA">« En mer ». Épreuves [I] et tapuscrit [V]</title>
+                              <incipit>[Same as previous version]</incipit>
+                              <explicit>[Same as previous version, but without footnote about
+                                 Lucerne tunnel which has been moved]</explicit>
+                              <note resp="#SLA">Ces documents ne se trouvaient pas dans la chemise
+                                 titrée : « "En mer" / version NRF », mais étaient conservés
+                                 isolément ; de ce fait, ils sont catalogés ensemble.</note>
+                              <note resp="#ES">The note about Lucerne tunnel has been moved as a
+                                 footnote at the end of section 2 (after "ça fait trois jours et
+                                 deux nuits que je ne dors pas" and before "III – L’abri, c’était à
+                                 cause de quoi ?". The following document in the archive, A-6-25-f,
+                                 is a copy of this one.</note>
+                           </msItem>
+                        </msContents>
+                        <physDesc>
+                           <p resp="#SLA">1 jeu d'épreuves (22 ff. dact.) avec annotations allogr. :
+                              « Amitiés. Bernard, à bientôt / N. ». 1 ts. (18 ff. dact. num.).</p>
+                           <objectDesc>
+                              <supportDesc material="paper">
+                                 <support>Paper sheets</support>
+                              </supportDesc>
+                           </objectDesc>
+                           <typeDesc>
+                              <p>Computer printout</p>
+                           </typeDesc>
+                           <additions ana="yes">Only few.</additions>
+                        </physDesc>
+                        <history>
+                           <origin>
+                              <origDate resp="#ES" when="1999-03-03">Printed on March 3,
+                                 1999</origDate>
+                           </origin>
+                        </history>
+                        <additional>
+                           <surrogates>
+                              <p>Facsimile not available in this prototype</p>
+                           </surrogates>
+                           <listBibl>
+                              <bibl>
+                                 <ptr type="SLA-entry"
+                                    target="https://www.helveticarchives.ch/detail.aspx?ID=1204502"
+                                 />
+                              </bibl>
+                           </listBibl>
+                        </additional>
+                     </msDesc>
+                  </witness>
+               </listWit>
+
+               <!-- Italian translation, THERE ARE MORE DOCUMENTS NOT DESCRIBED HERE -->
+               <witness xml:id="C-2-b-15">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Switzerland</country>
+                        <institution>Swiss Literary Archives (SLA)</institution>
+                        <collection>ALS-Comment</collection>
+                        <idno>C-2-b-15</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <title resp="#ES">IN MARE</title>
+                           <incipit>- Arrabbiato?</incipit>
+                           <explicit>Doppie, forse è troppo. (Pausa) Lei, comunque, mangia così
+                              poco.</explicit>
+                           <note resp="#SLA">[Bernard Comment, Tutto passa, trad. de S.Teroni,
+                              Palermo, Sellerio Editore, 2012.] Rien n'indique sur le document s'il
+                              s'agit de cette traduction ou d'une prépublication italienne non
+                              retrouvée.</note>
+                           <note resp="#ES">It contains reading indications, as the radio version.
+                              There is no footnote about Lucerne tunnel.</note>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <p resp="#SLA">21 ff. dact. num.</p>
+                        <objectDesc>
+                           <supportDesc material="paper">
+                              <support>Paper sheets</support>
+                           </supportDesc>
+                        </objectDesc>
+                        <typeDesc>
+                           <p>Computer printout</p>
+                        </typeDesc>
+                        <additions ana="yes">With red pen and pencil.</additions>
+                     </physDesc>
+                     <history>
+                        <origin>
+                           <origDate resp="#SLA">s.d.</origDate>
+                        </origin>
+                     </history>
+                     <additional>
+                        <surrogates>
+                           <p>Facsimile not available in this prototype</p>
+                        </surrogates>
+                        <listBibl>
+                           <bibl>
+                              <ptr type="SLA-entry"
+                                 target="https://www.helveticarchives.ch/detail.aspx?ID=1235202"/>
+                           </bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+               
+            </listWit> <!-- end paper wits -->
+            
+            
+            
+            <listWit xml:id="witsDigital">               
+               <head>Digital witnesses</head>
+               
+               <witness xml:id="A-17-a_En-mer-recit-version-longue-DOC">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Switzerland</country>
+                        <institution>Swiss Literary Archives (SLA)</institution>
+                        <collection>ALS-Comment</collection>
+                        <idno>A-17-a</idno>
+                        <altIdentifier type="digitalLocation">
+                           <collection>RECITS, projet de recueil, hors-piste/</collection>
+                           <idno>En mer, récit, version longue.DOC</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <title resp="#ES">EN MER</title>
+                           <incipit>— Tu m'en veux?</incipit>
+                           <explicit>(Un temps) De toute façon, elle mange tellement peu.</explicit>
+                           <note resp="#ES">It corresponds to the radio version.</note>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="computer-file">
+                           <p>
+                              <objectType>Microsoft Word Document 97-2003</objectType>
+                              <measure unit="byte">75264</measure>
+                           </p>
+                        </objectDesc>
+                     </physDesc>
+                     <history>
+                        <provenance resp="Droid" when="2005-04-10">Last modified 2005-04-10T01:00:44</provenance>
+                        <provenance>The hard drive on which the digital witnesses were stored was created for the delivery to the SLA by the author.
+                           The author retrieved it once the files were saved on the servers of the SLA.</provenance>
+                     </history>                     
+                     <additional>
+                        <surrogates>
+                           <p>Facsimile and transcription of samples available in this prototype</p>
+                           <note>Copy of the file for private use</note>
+                        </surrogates>
+                        <listBibl>
+                           <bibl>
+                              <ptr type="SLA-entry" target="https://www.helveticarchives.ch/detail.aspx?ID=1332712"/>
+                           </bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+               
+               <witness xml:id="A-17-a_En-mer-recit-DOC">
+                  <msDesc> <!-- better this than biblio for digital documents -->
+                     <msIdentifier>
+                        <country>Switzerland</country>
+                        <institution>Swiss Literary Archives (SLA)</institution>
+                        <collection>ALS-Comment</collection>
+                        <idno>A-17-a</idno>
+                        <altIdentifier type="digitalLocation"> <!-- changed, compared to paper wit. This info could also be part of msContents,
+                           but as this part of the archive is not catalogued yet, it serves as identifier -->
+                           <collection>RECITS, projet de recueil, hors-piste/</collection>
+                           <idno>En mer, récit.DOC</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <title resp="#ES">EN MER</title>
+                           <incipit>[Citation Ramuz] I — Tu m'en veux?</incipit>
+                           <explicit>Doubles portions, c'est peut-être beaucoup. Elle mange tellement peu.</explicit>
+                           <note resp="#ES">Endnote about Lucerne tunnel placed at the end of section II (after "ça fait trois jours et
+                              deux nuits que je ne dors pas" and before "III – L’abri, c’était à
+                              cause de quoi ?". It corresponds to the NRF version.</note>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="computer-file">
+                        <!-- from Guidelines: The objectDesc element is used to group together those parts of the physical description
+                                 which relate specifically to the text-bearing object, its format, constitution, layout, etc. -->
+                           <p>
+                              <objectType>Microsoft Word Document 97-2003</objectType> <!-- format and software version -->
+                              <measure unit="byte">68096</measure>
+                           </p>
+                        </objectDesc>
+                     </physDesc>
+                     <history> <!-- changed compared to paper wit -->
+                        <provenance resp="Droid" when="2005-04-10">Last modified 2005-04-10T01:00:44</provenance>
+                        <provenance>The hard drive on which the digital witnesses were stored was created for the delivery to the SLA by the author.
+                           The author retrieved it once the files were saved on the servers of the SLA.</provenance>
+                     </history>                     
+                     <additional>
+                        <surrogates>
+                           <p>Facsimile and transcription of samples available in this prototype</p>
+                           <note>Copy of the file for private use</note>
+                        </surrogates>
+                        <listBibl>
+                           <bibl>
+                              <ptr type="SLA-entry" target="https://www.helveticarchives.ch/detail.aspx?ID=1332712"/>
+                           </bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>
+               
+               <witness xml:id="A-17-a_tout-passe-docx">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Switzerland</country>
+                        <institution>Swiss Literary Archives (SLA)</institution>
+                        <collection>ALS-Comment</collection>
+                        <idno>A-17-a</idno>
+                        <altIdentifier type="digitalLocation">
+                           <collection>BC LIVRES/TOUT PASSE/</collection>
+                           <idno>TOUT PASSE.docx</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem>
+                           <title resp="#ES">Tout passe</title>
+                           <incipit>De loin, je n’avais d’abord vu que la tache rouge d’un coupe-vent de
+                              nylon.</incipit>
+                           <explicit>Je n’ai
+                              jamais aimé avoir des armoires qui se remplissent trop.</explicit>
+                           <note resp="#ES">Final version or proofs, it includes the editor name and the layout.</note>
+                        </msItem>
+                     </msContents>
+                     <physDesc>
+                        <objectDesc form="computer-file">
+                           <p>
+                              <objectType>Microsoft Word for Windows 2007 onwards</objectType>
+                              <measure unit="byte">164471</measure>
+                           </p>
+                        </objectDesc>
+                     </physDesc>
+                     <history>
+                        <provenance resp="Droid" when="2005-04-10">Last modified 2011-01-31T09:27:44</provenance>
+                        <provenance>The hard drive on which the digital witnesses were stored was created for the delivery to the SLA by the author.
+                           The author retrieved it once the files were saved on the servers of the SLA.</provenance>
+                     </history>                     
+                     <additional>
+                        <surrogates>
+                           <p>Facsimile and transcription of samples available in this prototype</p>
+                           <note>Copy of the file for private use</note>
+                        </surrogates>
+                        <listBibl>
+                           <bibl>
+                              <ptr type="SLA-entry" target="https://www.helveticarchives.ch/detail.aspx?ID=1332712"/>
+                           </bibl>
+                        </listBibl>
+                     </additional>
+                  </msDesc>
+               </witness>               
+               
+            </listWit> <!-- end digital wits -->
+            
+            
+
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div xml:id="A-3-e-16_transcr" type="witness" source="#A-3-e-16">
+            <head type="document">En mer</head>
+            <div type="sample" ana="Passage_1" facs="p_108">
+               <epigraph>
+                  <cit>
+                     <quote>Regardez-moi ces autres, j'entends ceux de la terre, parce que nous on
+                     est de l'eau, et ça fait une grande différence</quote>
+                     <bibl>C. F. Ramuz, <title>La beauté sur la terre</title></bibl>
+                  </cit>
+               </epigraph>          
+               <p>
+                  <del>
+                     <said>— Tu m'en veux?</said>
+                     <said>— Non.</said>
+                     <said>— Mais tu avais espéré que je t'accompagnerais?</said>
+                     <said>— Oui.</said>
+                  </del>
+               </p>
+               <p>De loin, je n'avais pas d'abord vu que la tache rouge <subst>
+                     <del>de son</del>
+                     <add>d'un</add>
+                  </subst> coupe-vent de nylon. <subst>
+                     <del>Elle était</del>
+                     <add>Une silhouette</add>
+                  </subst> assise sur la banquette arrière de la petite vedette de <subst>
+                     <del>Paolo</del>
+                     <add>Raoul</add>
+                  </subst>. Ensuite, j'ai mieux distingué la chevelure, longe et noire.
+                 <del>Louise portait une coupe garçonne, à l'époque, presque
+                  en brosse, mais tout cela a bien sûr eu le tempds de pousser, en dix ans.</del>
+                  C'est quand elle est parvenue sur le pont, après une
+                     escalade maladroite de l'échelle, que je l'ai vraiment reconnue.
+                  <add>Louise portait une coupe garçonne, à l'époque, presque
+                     en brosse, mais tout cela a bien sûr eu le tempds de pousser, en dix ans.</add>                  
+                  <!--<seg
+                     xml:id="Louise_portait">Louise portait une coupe garçonne, à l'époque, presque
+                     en brosse, mais tout cela a bien sûr eu le tempds de pousser, en dix ans.</seg>
+                  <seg xml:id="C_est_quand">C'est quand elle est parvenue sur le pont, après une
+                     escalade maladroite de l'échelle, que je l'ai vraiment reconnue.</seg><listTranspose>
+                     <transpose>
+                        <ptr target="#C_est_quand"/>
+                        <ptr target="#Louise_portait"/>
+                     </transpose>
+                  </listTranspose>-->
+                  <subst>
+                     <del>La</del>
+                     <add>Elle a gardé la</add>
+                  </subst> même sveltesse <del>qu'autrefois</del>, et <del>presque</del> une
+                     <add>sort de</add> maigreur sur le visage, très pâle autour de ses yeux verts à
+                  facettes, comme deux émeraudes piquées de soufre. <del>Je m'attendais si peu à la
+                     voir.</del> Il ne vient jamais de visite, ici, en-dehors de <subst>
+                     <del>Paolo</del>
+                     <add>Raoul</add>
+                  </subst> chaque mercredi vers onze heures, mais il ne s'attarde pas, et une fois sur deux il oublie les livres que je lui ai demandés, ou il
+                  prétend qu'ils ne sont pas arrivés.<gap agent="#ES" reason="sampling"/></p>
+            </div>
+            
+            <!-- end part1_begin -->
+
+            <div type="sample" ana="Passage_2" facs="p_113">
+               <p>Louise <del>s'est installée dans un des fauteils du « salon ». L'inclinaison du
+                     sol la perturbait, j'a même cru qu'elle allait se sentir mal. Tandis que sur ce
+                     siège redressé par des cales sous les deux pieds de gauche, elle retrouve son
+                     aise, et presque le sourire. Elle</del> aurait voulu que j'aère un peu. Ça
+                  sentait le renfermé. On respirait mal. Mais j'ai tout de suite prévenu son geste.
+                  À cause de la mouche. Enfin, je ne lui ai pas parlé de la mouche, elle <del>
+                     n'aurait pas copris, ou</del> se serait moquée de moi. <subst>
+                     <del>D'ailleurs, il fait très froid dehors, et</del>
+                     <add>Ici</add>
+                  </subst> le vent souffle fort, surtout en soirée.</p>
+            </div>
+            <!-- end part2_mouche -->
+
+            <div type="sample" ana="Passage_3" facs="p_125">
+               <p>
+                  <said>— Est-ce que tu <del>les</del> as abandonné<del>s</del>... juste après mon
+                     départ?</said>
+                  <said>— Je n<subst>
+                        <del>e les</del>
+                        <add>'</add>
+                     </subst> ai pas abandonné<del>s</del>, Léo. On m'a chassée. Expulsée de chez
+                     moi, du jour au lendemain. Il était bien placé pour tout comprendre. <subst>
+                        <del>L'immaculée conception! Je crois que p</del>
+                        <add>P</add>
+                     </subst>endant toutes ces années, il ne s'était douté de rien. Il me prenait
+                     pour une femme étrange, un peu folle peut-être, mais il s'en était fait une
+                     raison. Il me tolérait. Tout le monde me tolérait. Sa famille, ses enfant.
+                        <hi>Nos</hi> enfants. <subst>
+                        <del>J'étais encore plus étrangère que toi, dans ce pays. C'est pas
+                           seulement une affaire de passeport.</del>
+                        <add>Mais là, c'était trop pour lui. Il ne pouvait pas avaler l'affront. Il
+                           n'a vu que ça, l'affront.</add>
+                     </subst></said>
+               </p>
+               <p><subst>
+                     <del>C'est à moi qu'elle dit ça... Si j'en avais eu un, de passeport, j'aurais
+                        au moins pu toucher une rente invalidité. Mais elle retrouve tout à coup le
+                        sourire, presque désinvolte.</del>
+                     <add>Elle se lève, ouvre des tiroirs, remue les affaires sur la table,
+                        s'accroche à un meuble, elle voudrait une cigarette, elle a
+                        tellement envie de fumer, je lui dis qu'elle ne trouvera rien, elle ferait mieux de penser à autre chose.
+                        Elle me fixe du regard, elle hausse les sourcils, et se gratte la joue droite, avec l'index, elle se ronge toujours autant les ongles, jusqu'au sang.</add>
+                  </subst></p>
+            </div>
+            <!-- end part3_mari -->
+
+            <div type="sample" ana="Passage_4" facs="p_130">
+               <p><gap agent="#ES" reason="sampling"/>La direction n'y trouvera<del>it</del> rien à
+                  redire. <del>Chaque être humain a droit à un peu de compagnie, et pendant toutes
+                     ces années, je n'avais pas coûté cher. Toujours cet esprit pratique qui ne le
+                     quitte pas.</del> J'apporterai des doubles portions, qu'il a encore crié depuis
+                  sont petit bateau, avec un grand sourire.</p>
+               <p><subst>
+                     <del>Doubles portions, c'est peut-être beaucoup. Elle mange tellement
+                        peu.</del>
+                     <add>Je lui ai fait de grands signes amicaux avec les bras, en me disant que je
+                        donnerais le surplus aux poissons. Je n'ai jamais aimé avoir des armoires
+                        qui se remplissent trop. C'est encore un fil à <unclear>xx
+                        xxxxx</unclear></add>
+                  </subst></p>
+
+            </div>
+            <!-- end part4_fin -->
+         </div>
+         <!-- end witness A-3-e-16 -->
+
+
+         <!-- ################################################# -->
+
+
+         <div xml:id="A-3-e-18_transcr" type="witness" source="#A-3-e-18">
+            <head type="document">En mer</head>
+            <div type="sample" ana="Passage_1" facs="p_91">
+               <epigraph>
+                  <p>
+                     <del>
+                        <cit>
+                           <quote>Regardez-moi ces autres, j'entends ceux de la terre, parce que nous
+                              on est de l'eau, et ça fait une grande différence</quote>
+                           <bibl>C. F. Ramuz, <title>La beauté sur la terre</title></bibl>
+                        </cit>
+                     </del>
+                  </p>
+               </epigraph>
+               <p>De loin, je n'avais pas d'abord vu que la tache rouge d'un coupe-vent de nylon. Une silhouette, assise sur la banquette arrière de la petite vedette de Raoul. Ensuite, j'ai mieux distingué la chevelure, longe et <subst><del>noire</del><add>blonde</add></subst>. C'est quand elle est parvenue sur le pont, après une escalade maladroite de l'échelle, que je l'ai vraiment reconnue. Louise portait une coupe garçonne, à l'époque, presque
+                     en brosse, mais tout cela a bien sûr eu le tempds de pousser, en près de sept ans. Elle a gardé la même sveltesse, et une sort de maigreur sur le visage, très pâle autour de ses yeux verts à
+                  facettes, comme deux émeraudes piquées de soufre. Il ne vient jamais de visite, ici, en-dehors de Raoul qui m'apporte le ravitaillement, chaque mercredi vers onze heures, <del>mais</del> il ne s'attarde pas, <del>et</del> une fois sur deux il oublie les livres que je lui ai demandés, ou il
+                  prétend qu'ils ne sont pas arrivés.<gap agent="#ES" reason="sampling"/></p>
+            </div>            
+            <!-- end part1_begin -->
+
+            <div type="sample" ana="Passage_2" facs="p_94">
+               <p>Louise <subst><del>aurait voulu</del><add>voulait</add></subst> que j'aère un peu. Ça
+                  sentait le renfermé. On respirait mal. Mais j'ai tout de suite prévenu son geste.
+                  À cause de la mouche. Enfin, je ne lui ai pas parlé de la mouche<del>, elle se serait moquée de moi</del>. Je lui ai dit qu'ici, le vent soufflait fort, surtout en soirée. Elle m'a regardé d'un air <subst><del>moqueur</del><add>troublé</add></subst>, en restant silencieuse.</p>
+            </div>
+            <!-- end part2_mouche -->
+
+            <div type="sample" ana="Passage_3" facs="p_103">
+               <p>
+                  <said>— Est-ce que tu as abandonné... juste après mon
+                     départ?</said>
+                  <said>— Je n'ai pas abandonné, Léo. On m'a chassée. Expulsée de chez
+                     moi, du jour au lendemain. Il était <subst><del>bien</del><add>le mieux</add></subst> placé pour <del>tout</del> comprendre. Pendant toutes ces années, il ne s'était douté de rien. Il me prenait
+                     pour une femme étrange, un peu folle peut-être, mais il s'en était fait une
+                     raison. Il me tolérait. Tout le monde me tolérait. Sa famille, ses enfant.
+                        <hi>Nos</hi> enfants. Mais là, c'était trop pour lui. Il ne pouvait pas avaler l'affront.</said>
+               </p>
+               <p>Elle se lève, ouvre des tiroirs, remue les affaire posée sur la table,
+                        s'accroche à un meuble, elle voudrait une cigarette, elle a
+                        tellement envie de fumer, je lui dis qu'elle n'en trouvera pas, elle ferait mieux de penser à autre chose. Elle me fixe du regard, hausse les sourcils, se gratte la joue droite, avec l'index. Un beau doigt long, effilé. Mais elle se ronge toujours autant les ongles, jusqu'au sang.</p>
+            </div>
+            <!-- end part3_mari -->
+
+            <div type="sample" ana="Passage_4" facs="p_107">
+               <p><gap agent="#ES" reason="sampling"/>La direction n'y trouvera rien à
+                  redire. J'apporterai des doubles portions, qu'il a encore crié depuis
+                  sont petit bateau, avec un grand sourire. Je lui ai fait de grands signes amicaux avec les bras tandis qu'il s'éloignait, en me disant que je
+                        donnerais le surplus de nourriture aux poissons. Je n'ai jamais aimé avoir des armoires
+                        qui se remplissent trop.</p>
+            </div>
+            <!-- end part4_fin -->
+         </div>
+         <!-- end witness A-3-e-18 -->
+         
+         
+         <!-- ################################################# -->
+         
+         
+         <div xml:id="A-3-e-20_transcr" type="witness" source="#A-3-e-20">
+            <head type="document">En mer</head>
+            <div type="sample" ana="Passage_1" facs="p_44">
+               <head type="section">I</head>
+               <p>De loin, je n'avais pas d'abord vu que la tache rouge d'un coupe-vent de nylon. Une silhouette, assise sur la banquette arrière de la petite vedette de Raoul. Ensuite, j'ai mieux distingué la chevelure, longe et blonde. C'est quand elle est parvenue sur le pont, après une escalade maladroite de l'échelle, que je l'ai vraiment reconnue. Louise portait une coupe garçonne, à l'époque, presque
+                  en brosse, mais tout cela a bien sûr eu le tempds de pousser, en près de sept ans. Elle a gardé la même sveltesse, et une sort de maigreur sur le visage, très pâle autour de ses yeux verts à
+                  facettes, comme deux émeraudes piquées de soufre. Il ne vient jamais de visite, ici, en-dehors de Raoul qui m'apporte le ravitaillement, chaque mercredi vers onze heures, il ne s'attarde pas, une fois sur deux il oublie les livres que je lui ai demandés, ou il
+                  prétend qu'ils ne sont pas arrivés. <gap agent="#ES" reason="sampling"/></p>
+            </div>            
+            <!-- end part1_begin -->
+            
+            <div type="sample" ana="Passage_2" facs="p_45">
+               <head type="section">II</head>
+               <p>Louise voulait que j'aère un peu. Ça
+                  sentait le renfermé. On respirait mal. Mais j'ai tout de suite prévenu son geste.
+                  À cause de la mouche. Enfin, je ne lui ai pas parlé de la mouche. Je lui ai dit qu'ici<del rend="trackChange">,</del> le vent soufflait fort, surtout en soirée. Elle m'a regardé d'un air troublé, en restant silencieuse. <gap agent="#ES" reason="sampling"/></p>
+            </div>
+            <!-- end part2_mouche -->
+            <div type="sample" ana="Passage_2a" facs="p_45">
+               <p>
+               <gap agent="#ES" reason="sampling"/>
+               <said>C'est un peu comme les dominos. J'enchaîne, par association d'idées. Au fond, rien n'est compliqué, dans l'absolu. Et puis, comme disait je ne sais plus qui, <subst><del rend="trackChange">«</del><add resp="#BC" rend="manual">«</add></subst>
+                  <q>la solitude est l'infirmerie des âmes</q>
+                  <subst><del rend="trackChange">»</del><add resp="#BC" rend="manual">»</add></subst>.</said>
+               <!-- oppure <retrace> .. -->
+               </p>
+            </div>
+            
+            <div type="sample" ana="Passage_3" facs="p_49">
+               <p>
+                  <said>— Est-ce que tu as abandonné... juste après mon
+                     départ?</said>
+                  <said>— Je n'ai pas abandonné, Léo. On m'a chassée. Expulsée de chez
+                     moi, du jour au lendemain. Il était le mieux placé pour comprendre. Pendant toutes ces années, il ne s'était douté de rien. Il me prenait
+                     pour une femme étrange, un peu folle peut-être, mais il s'en était fait une
+                     raison. Il me tolérait. Tout le monde me tolérait. Sa famille, ses enfant.
+                     <hi>Nos</hi> enfants. Mais là, c'était trop pour lui. Il ne pouvait pas avaler l'affront.</said>
+               </p>
+               <p>Elle se lève, ouvre des tiroirs, remue les affaire posée sur la table,
+                  s'accroche à un meuble, elle voudrait une cigarette, elle a
+                  tellement envie de fumer, je lui dis qu'elle n'en trouvera pas, elle ferait mieux de penser à autre chose. Elle me fixe du regard, hausse les sourcils, se gratte la joue droite, avec l'index. Un beau doigt long, effilé. Mais elle se ronge toujours autant les ongles, jusqu'au sang.</p>
+            </div>
+            <!-- end part3_mari -->
+            
+            <div type="sample" ana="Passage_4" facs="p_51">
+               <p><gap agent="#ES" reason="sampling"/>La direction n'y trouvera rien à
+                  redire. J'apporterai des doubles portions, qu'il a encore crié depuis
+                  sont petit bateau, avec un grand sourire. Je lui ai fait de grands signes amicaux avec les bras tandis qu'il s'éloignait, en me disant que je
+                  donnerais le surplus de nourriture aux poissons. Je n'ai jamais aimé avoir des armoires
+                  qui se remplissent trop.</p>
+            </div>
+            <!-- end part4_fin -->
+         </div>
+         <!-- end witness A-3-e-20 -->
+         
+         
+         
+         <!-- ################################################# -->
+         
+         
+         <div xml:id="A-17-a_En-mer-recit-version-longue-DOC_transcr" type="witness" source="#A-17-a_En-mer-recit-version-longue-DOC">
+            <head type="document">EN MER</head>
+            <div type="sample" ana="Passage_1" facs="p_2">               
+               <said>— Tu m'en veux?</said><said>
+               — Non.</said><said>
+               — Mais tu espérais que je t'accompagnerais?</said><said>
+               — Oui.</said><said>
+               — Je ne pouvais pas.</said><said>
+               — Je sais.</said><said>
+               — Alors tu m'en as voulu.</said><said>
+               — Non, je viens de te le dire.</said><said>
+               — Moi, je m'en suis voulu.</said><said>
+               — Tu ne devrais pas remuer le passé...</said><said>
+               — Il remue tout seul, Léo.</said>
+               <p>De loin, je n'avais d'abord vu que la tache rouge de son coupe-vent de nylon. Elle
+               était assise sur la banquette arrière de la petite vedette de Paolo. Ensuite, j'ai mieux
+               distingué la chevelure, longue et noire. Louise portait une coupe garçonne, à l'époque,
+               presque en brosse, mais tout cela a bien sûr eu le temps de pousser, en dix ans. C'est
+               quand elle est parvenue sur le pont, après une escalade maladroite de l'échelle, que je
+               l'ai vraiment reconnue. La même sveltesse qu'autrefois, et presque une maigreur sur le
+               visage, très pâle autour de ses yeux verts à facettes, comme deux émeraudes piquées de
+               soufre et d'azurite. Je m'attendais si peu à la voir. Il ne vient jamais de visite, ici, en-
+               dehors de Paolo qui m'apporte le ravitaillement, chaque mercredi vers onze heures,
+               mais il ne s'attarde pas, et une fois sur deux il oublie les livres que je lui ai demandés,
+               ou il prétend qu'ils ne sont pas arrivés.<gap agent="#ES" reason="sampling"/></p>              
+            </div>            
+            <!-- end part1_begin -->
+            
+            <div type="sample" ana="Passage_2" facs="p_7">
+               <p>Louise s'est installée dans un des fauteuils du « salon ». L'inclinaison du sol la
+                  perturbait, visiblement, j'ai même cru qu'elle allait se sentir mal. Tandis que sur ce
+                  siège redressé par des cales sous les deux pieds de gauche, elle retrouve son aise, et
+                  presque le sourire. Elle aurait voulu que j'aère un peu. Ça sentait le renfermé. On
+                  respirait mal. Mais j'ai tout de suite prévenu son geste, il ne faut jamais ouvrir une
+                  fenêtre en hiver, et toujours refermer la porte aussi vite que possible. À cause de la
+                  mouche. Enfin, je ne lui ai pas parlé de la mouche, elle n'aurait pas compris, ou se serait
+                  moquée de moi. De toute façon, il fait très froid dehors, et le vent souffle fort, surtout en
+                  soirée. Mieux vaut garder tout fermé.</p>
+            </div>
+            <!-- end part2_mouche -->
+            
+            <div type="sample" ana="Passage_3" facs="p_21">
+               <p>
+                  <said>— Est-ce que tu les as abandonnés... juste après mon départ?</said>
+                  <said>— Je ne les ai pas abandonnés, Léo. (<hi>Un temps</hi>) On m'a chassée. Expulsée de chez
+                  moi, du jour au lendemain.</said>
+                  <said>— Et sous quel motif?</said>
+                  <said>— Il était bien placé pour tout comprendre. (<hi>Un temps. Ironique</hi>) L'immaculée
+                  conception... Je crois que pendant toutes ces années, il ne s'était douté de rien. Il me
+                  prenait pour une femme étrange, un peu folle peut-être, mais il s'en était fait une raison.
+                  Il me tolérait. Tout le monde me tolérait. Sa famille, ses enfants. Nos enfants. (<hi>Un
+                  temps</hi>) J'étais encore plus étrangère que toi, dans ce pays. C'est pas seulement une
+                  affaire de passeport.</said>
+                  <said>— (<hi>Presque pour soi</hi>) N'empêche que si j'avais eu un passeport suisse, j'aurais pu
+                  rester. J'aurais même touché une rente invalidité...</said>
+                  
+               </p>
+            </div>
+            <!-- end part3_mari -->
+            
+            <div type="sample" ana="Passage_4" facs="p_26">
+               <p><gap agent="#ES" reason="sampling"/>La
+                  direction n'y trouverait rien à redire. Chaque être humain a droit à un peu de
+                  compagnie, et pendant toutes ces années, je n'avais pas coûté cher. Toujours cet esprit
+                  pratique qui ne le quitte pas. J'apporterai des double portions, qu'il a encore crié depuis
+                  son petit bateau, avec un grand sourire. (<hi>Un temps</hi>) Double, c'est peut-être beaucoup.
+                  (<hi>Un temps</hi>) De toute façon, elle mange tellement peu.</p>
+            </div>
+            <!-- end part4_fin -->
+         </div>
+         <!-- end witness A-17-a_En-mer-recit-version-longue-DOC -->
+         
+         
+         
+         <!-- ################################################# -->
+         
+         
+         
+         <div xml:id="A-17-a_En-mer-recit-DOC_transcr" type="witness" source="#A-17-a_En-mer-recit-DOC">
+            <head type="document">EN MER</head>
+            <div type="sample" ana="Passage_1" facs="p_1">
+               <epigraph>
+                  <p>
+                     <del>
+                        <cit>
+                           <quote>Regardez-moi ces autres, j'entends ceux de la terre, parce que nous
+                              on est de l'eau, et ça fait une grande différence</quote>
+                           <bibl>C. F. Ramuz, <title>La beauté sur la terre</title></bibl>
+                        </cit>
+                     </del>
+                  </p>
+               </epigraph>
+               <head type="section">I</head>
+               <said>— Tu m'en veux?</said><said>
+                  — Non.</said>
+               <said>— Mais tu avais espéré que je t'accompagnerais?</said>
+               <said>— Oui.</said>
+               <said>— Je ne pouvais pas.</said>
+               <said>— Je sais.</said>
+               <said>— Alors tu m'en as voulu.</said>
+               <said>— Non, je viens de te le dire.</said>
+               <said>— Moi, je m'en suis voulu.</said>
+               <p>De loin, je n'avais d'abord vu que la tache rouge de son coupe-vent de nylon.
+                  Elle était assise sur la banquette arrière de la petite vedette de Paolo. Ensuite, j'ai
+                  mieux distingué la chevelure, longue et noire. Louise portait une coupe garçonne,
+                  à l'époque, presque en brosse, mais tout cela a bien sûr eu le temps de pousser, en
+                  dix ans. C'est quand elle est parvenue sur le pont, après une escalade maladroite
+                  de l'échelle, que je l'ai vraiment reconnue. La même sveltesse qu'autrefois, et
+                  presque une maigreur sur le visage, très pâle autour de ses yeux verts à facettes,
+                  comme deux émeraudes piquées de soufre. Je m'attendais si peu à la voir. Il ne
+                  vient jamais de visite, ici, en-dehors de Paolo qui m'apporte le ravitaillement,
+                  chaque mercredi vers onze heures, mais il ne s'attarde pas, et une fois sur deux il
+                  oublie les livres que je lui ai demandés, ou il prétend qu'ils ne sont pas arrivés.
+                  <gap agent="#ES" reason="sampling"/>
+               </p>              
+            </div>            
+            <!-- end part1_begin -->
+            
+            <div type="sample" ana="Passage_2" facs="p_4">
+               <head type="section">II</head>
+               <p>Louise s'est installée dans un des fauteuils du « salon ». L'inclinaison du sol la
+                  perturbait, j'ai même cru qu'elle allait se sentir mal. Tandis que sur ce siège
+                  redressé par des cales sous les deux pieds de gauche, elle retrouve son aise, et
+                  presque le sourire. Elle aurait voulu que j'aère un peu. Ça sentait le renfermé. On
+                  respirait mal. Mais j'ai tout de suite prévenu son geste. À cause de la mouche.
+                  Enfin, je ne lui ai pas parlé de la mouche, elle n'aurait pas compris, ou se serait
+                  moquée de moi. D'ailleurs, il fait très froid dehors, et le vent souffle fort, surtout
+                  en soirée.</p>
+            </div>
+            <!-- end part2_mouche -->
+            
+            <div type="sample" ana="Passage_3" facs="p_13">
+               <p>
+                  <said>— Est-ce que tu les as abandonnés... juste après mon départ?</said>
+                  <said>— Je ne les ai pas abandonnés, Léo. On m'a chassée. Expulsée de chez moi, du
+               jour au lendemain. Il était bien placé pour tout comprendre. L'immaculée
+               conception! Je crois que pendant toutes ces années, il ne s'était douté de rien. Il
+               me prenait pour une femme étrange, un peu folle peut-être, mais il s'en était fait
+               une raison. Il me tolérait. Tout le monde me tolérait. Sa famille, ses enfants. Nos
+               enfants. J'étais encore plus étrangère que toi, dans ce pays. C'est pas seulement
+               une affaire de passeport.</said>
+               </p>
+               <p>C'est à moi qu'elle dit ça... Si j'en avais eu un, de passeport, j'aurais au moins
+               pu toucher une rente invalidité. Mais elle retrouve tout à coup le sourire, presque
+               désinvolte.</p>
+            </div>
+            <!-- end part3_mari -->
+            
+            <div type="sample" ana="Passage_4" facs="p_17">
+               <p><gap agent="#ES" reason="sampling"/>La direction n'y trouverait rien à redire.
+                  Chaque être humain a droit à un peu de compagnie, et pendant toutes ces années,
+                  je n'avais pas coûté cher. Toujours cet esprit pratique qui ne le quitte pas.
+                  J'apporterai des doubles portions, qu'il a encore crié depuis son petit bateau, avec
+                  un grand sourire.</p>
+               <p>Doubles portions, c'est peut-être beaucoup. Elle mange tellement peu.</p>
+            </div>
+            <!-- end part4_fin -->
+         </div>
+         <!-- end witness A-17-a_En-mer-recit-DOC -->
+                 
+         
+         
+         <!-- ################################################# -->
+         
+         
+         
+
+
+
+      </body>
+   </text>
+</TEI>
