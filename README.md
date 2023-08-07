@@ -1,3 +1,4 @@
 # materials
 
-![image](https://github.com/Comment-EnMer/materials/assets/6794584/87bad50a-f48e-4a24-8a42-7efe65c373cc)
+[![image](https://zenodo.org/badge/650235057.svg)](https://doi.org/10.5281/zenodo.8011999)
+
